@@ -32,9 +32,10 @@ font-family: texto;
 border-radius: 20px 20px 20px 20px;
 }
 blockquote {font-style: italic;
-border-left:4px solid green;
+border-left:4px solid #176043;
 padding:20px;
-background-color: #F29015;}
+background-color: #F29015;
+border-radius: 5px 20px 20px 5px;}
 ul {list-style-image: url(../img/favicontomato.png);
 }
 
