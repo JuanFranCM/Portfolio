@@ -27,7 +27,7 @@ h2{color:#F29015;
 #wrapper{width:80%;
 margin:auto;
 background-color: #fff;
-padding: 0px 10px 0px 10px;
+padding: 0px 10px 10px 10px;
 font-family: texto;
 border-radius: 20px 20px 20px 20px;
 }
@@ -45,14 +45,13 @@ img{display:block;
     padding: 10px 10px 10px 10px;
 }
 dt{font-weight:bold;
-font-variant: small-caps;
-color:crimson;
+color:red;
 }
 
 /*************************************** Responsividad ************************************/
 
 @media only screen and (width<700px) {
-    #wrapper{width:95%} 
+    #wrapper{width:90%} 
     img {width:100%}
 
 }
