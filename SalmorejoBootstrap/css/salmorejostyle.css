@@ -1,0 +1,53 @@
+/**********************************************************/
+/*   my own style for my bootstrap webpage salmorejo.html */
+/*            Autor: Juan Francisco Chacón                */
+/*            Version: 1.0                                */
+/*            Fecha: 03/02/2024                           */
+/**********************************************************/
+
+
+/*                  fonts                 */
+@font-face{ src:url(../font/CursiveSans-Bold.ttf);
+    font-family:titulos;
+}
+@font-face{src:url(../font/InriaSerif-Regular.otf);
+    font-family:texto;
+}
+
+.font-texto{
+    font-family: texto;
+    font-size: 1.2em;
+}
+.font-titulos{
+    font-family: titulos;
+}
+
+/*               list                     */
+ul {list-style-image: url(../img/favicontomato.png);
+}
+
+/*               body                     */
+body {
+    background-image:url(../img/backgroundpatterntomato.avif);  
+}
+    
+/*                 sizing                 */
+
+/*                 colors                 */
+.bg-salmorejo{
+    background-color: #F29015;
+}
+
+.text-salmorejo {
+    color: #F29015;
+}
+
+.text-green{
+    color: #176043
+}
+
+.text-red {
+    color: red;
+}
+
+

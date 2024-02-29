@@ -1,0 +1,58 @@
+/***********************************************************************/
+/*              hoja de estilo de salmorejo.html                       */
+/*              autora: Juan Fran                                      */
+/*              version: 1.0                                           */
+/*              fecha: octubre de 2023                                 */
+/*              comentario: trabajo de lenguaje de marcas              */
+/***********************************************************************/
+
+@font-face{ src:url(../font/CursiveSans-Bold.ttf);
+    font-family:titulos;
+}
+@font-face{src:url(../font/InriaSerif-Regular.otf);
+    font-family:texto;
+}
+
+
+*{box-sizing:border-box;}
+body {background-image:url(../img/backgroundpatterntomato.avif);
+margin:0;padding:0;     
+font-size: 1.2em;
+}
+h1{font-family:titulos;
+color:#176043;}
+h2{color:#F29015;
+    font-family:titulos;}
+
+#wrapper{width:80%;
+margin:auto;
+background-color: #fff;
+padding: 0px 10px 10px 10px;
+font-family: texto;
+border-radius: 20px 20px 20px 20px;
+}
+blockquote {font-style: italic;
+border-left:4px solid #176043;
+padding:20px;
+background-color: #F29015;
+border-radius: 5px 20px 20px 5px;}
+ul {list-style-image: url(../img/favicontomato.png);
+}
+
+img{display:block;
+    margin:auto;
+    width:50%;
+    float:right;
+    padding: 10px 10px 10px 10px;
+}
+dt{font-weight:bold;
+color:red;
+}
+
+/*************************************** Responsividad ************************************/
+
+@media only screen and (width<700px) {
+    #wrapper{width:90%} 
+    img {width:100%}
+
+}

@@ -1,0 +1,110 @@
+/*************************************************************/
+/*             css for halloween.html                        */
+/*             author:Juan Francisco Chacon                  */
+/*             date: november 2023                           */
+/*             comment: my first exercise with js functions  */
+/*************************************************************/
+
+
+/*************************Scenario****************************/
+@font-face{
+    src:url('../font/shloprg.otf');
+    font-family: terror;
+}
+body {background-color: black;}
+#scenario {width:1500px;
+    height:841px;
+    background-image: url(../img/background.jpg);
+    margin:auto;
+    position:relative;
+ }
+#moon {width:250px;
+    height:270px;
+    /*border:2px solid purple;*/
+    position:absolute;
+    top:82px;
+    left:615px;
+    }
+#bat{width:80px;
+    height:60px;
+    /*border:2px solid red;*/
+    position:absolute;
+    top:370px;
+    left:260px;
+}
+#pumpkin{width:185px;
+    height:160px;
+    /*border:2px solid orange;*/
+    position:absolute;
+    top:640px;
+    left:850px;
+}
+#skeletons {position:absolute;
+    bottom: 50px;
+    right: 100px;
+    width:600px;
+    visibility:hidden;
+}
+#zombie {
+    position:absolute;
+    top: 500px;
+    left: 400px;
+    width:300px;
+    visibility: hidden;
+
+}
+#bats{
+    top:300px;
+    left:165px;
+    position: absolute;
+    visibility: hidden;
+    width: 300px;
+}
+/*************text***************/
+#moontext{
+    color:white;
+    font-size: 2em;
+    font-family: terror;
+    position:absolute;
+    top:150px;
+    left: 300px;
+    opacity:0;
+    animation-name:showmoontext;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes showmoontext {
+    from {
+        opacity:0;
+        color:white;
+        left:0px;
+    }
+    to {
+        opacity:1;
+        color:red;
+        left:400px;
+    }
+}
+
+#battext{
+    color: white;
+    font-size: 2em;
+    font-family: terror;
+    position: absolute;  
+    top: 500px;
+    left: 30px;
+}
+#battext:hover{
+    color: red;
+}
+#pumpkintext{
+    color: white;
+    font-size: 2em;
+    font-family: terror;
+    position: absolute;
+    top: 350px;
+    right: 100px;
+}
+#pumpkintext:hover{
+    color: red;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>halloween</title>
+    <link rel="stylesheet" href="./css/halloween.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <script src="./js/halloween.js"></script>
+</head>
+<body>
+    <!-- this exercise is made just for fun-->
+    <!-- WARNING: it's not RESPONSIVE, only for comuters & laptops-->
+    <div id="scenario">
+        <img id="skeletons" src="./img/skeletons.gif" alt="">
+        <div id="moon" onmouseover="show('skeletons');sound('skeletonsdance')" onmouseout="hide('skeletons');silence('skeletonsdance')">
+        </div>
+        <audio id="skeletonsdance">
+            <source src="./sound/skeletonsdance.mp3" type="audio/mp3">
+        </audio>
+        <img id="zombie" src="./img/zombie.gif" alt="">
+        <div id="pumpkin" onmouseover="show('zombie');sound('zombiesound')" onmouseout="hide('zombie');silence('zombiesound')">
+        </div>
+        <audio id="zombiesound">
+            <source src="./sound/zombiesound.mp3" type="audio/mp3">
+        </audio>
+        <img id="bats" src="./img/bat.gif" alt="">
+        <div id="bat" onmouseover="show('bats');sound('batssound')" onmouseout="hide('bats');silence('batssound')">
+        </div>
+        <audio id="batssound">
+            <source src="./sound/batssound.mp3" type="audio/mp3">
+        </audio>
+        <p id="moontext">Don't touch the moon...</p>
+        <p id="battext">Don't disturb the bat...</p>
+        <p id="pumpkintext">Are you sure you want the biggest pumpkin?</p>
+    </div>
+
+</body>
+
+</html>
